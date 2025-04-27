@@ -1,0 +1,36 @@
+---> origin = protocol + host + port
+
+---> path/route can be different
+
+Example: 
+
+1. https://www.website.com:3000/users   2. https://www.website.com:3000/products
+
+Both of these urls have the same origin because they have the same:
+
+protocol : https , host : www.website.com , port : 3000
+
+---> path/route can be different: path/route (1) : /users , path/route (2) : /products 
+
+---> If a request is made for a resource from one origin to a different origin, these requests are called Cross-Origin-Requests
+     and it comes under Cross-Origin-Resource-Sharing (CORS).
+
+---> The browser by default blocks any Cross-Origin-Resource-Sharing for security reasons.
+
+---> If CORS is not explicitly enabled, the browser shows the following error message:
+
+Access to fetch at 'http://localhost:3000/' from origin 'http://localhost:1234' has been blocked by CORS policy: 
+No 'Access-Control-Allow-Origin' header is present on the requested resource.
+
+Preflight request is a request that a browser sends to the server before the actual request to find out if the actual request 
+to be sent by the browser to the server is allowed or not.
+
+---> For sending a preflight request, the HTTP method "OPTIONS" is used.
+
+Browser classifies HTTP requests into 2 types:
+1. Simple Request 
+2. Non-Simple Request
+
+1. Simple Requests: Requests that do bot require a Preflight request to be sent by the browser.
+2. Non-Simple Requests: Requests that require a Preflight request to be sent by the browser.
+
