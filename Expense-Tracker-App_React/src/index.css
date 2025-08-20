@@ -1,0 +1,295 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+}
+
+.budget-app
+{
+    /* margin: 20px; */
+    /* padding: 20px; */
+    /* border: 2px solid black; */
+    width: 100vw;
+    background-color: beige;
+}
+
+/* .summary-container
+{
+    margin: 10px;
+    border: 2px solid blue;
+} */
+
+.title-container
+{
+    /* margin: 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black; */
+}
+
+.title-container > h1
+{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+/* .budget-planner-title
+{
+    margin: 10px;
+    border: 2px solid black;
+} */
+
+.budget-summary-container
+{
+    /* margin: 10px; */
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.budget-summary
+{
+    /* margin: 10px;
+    padding: 10px;
+    border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.display
+{
+    margin: 10px;
+    padding: 10px;
+    /* border: 2px solid purple; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    width: 30vw;
+}
+
+.display > span
+{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.budget
+{
+    background-color: rgb(223, 220, 220);
+}
+
+.budget-display > input
+{
+    background: transparent;
+    border: none;
+    height: 20px;
+    width: 100px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.budget-display > input:focus
+{
+    outline: none;
+    border: none;
+}
+
+.budget-display > span
+{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.remaining
+{
+    background-color: rgb(166, 244, 166);
+}
+
+.spent
+{
+    background-color: lightblue;
+}
+
+.spent-display > input
+{
+    background: transparent;
+    border: none;
+    height: 20px;
+    width: 100px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.spent-display > span
+{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.display > button
+{
+    margin-left: 50px;
+    background-color: blue;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    width: 50px;
+}
+
+.title-container > h2
+{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.expense-list-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 2px solid red; */
+}
+
+.search-bar-container
+{
+    border: 2px solid grey;
+    padding: 10px;
+    background-color:cornsilk;
+    border-radius: 5px;
+    /* border: 2px solid red; */
+}
+
+.search-bar-container > input
+{
+    background: transparent;
+    border: none;
+    height: 20px;
+    width: 30vw;
+    font-size: 20px;
+}
+
+.search-bar-container > input:focus
+{
+    outline: none;
+    border: none;
+}
+
+.expense-list
+{
+    /* padding: 10px; */
+    /* border: 2px solid green; */
+    margin: 20px;
+}
+
+.expense
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    width: 30vw;
+    background-color: rgb(245, 203, 106);
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.expense-cost
+{
+    border: 2px solid white;
+    border-radius: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: yellow;
+}
+
+.expense > .expense-cost-container > button
+{
+    margin-left: 20px;
+    background-color: blue;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.add-expense-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: lightpink;
+}
+
+.add-name-container
+{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black; */
+    /* margin-right: 20px; */
+}
+
+.add-cost-container
+{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black; */
+    /* margin-left: 20px; */
+}
+
+.add-expense-name
+{
+    font-size: 20px;
+    font-weight: 500;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 20px;
+}
+
+.add-cost
+{
+    font-size: 20px;
+    font-weight: 500;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 20px;
+}
+
+.new-expense-save-button-container > button
+{
+    background-color: blue;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+}
