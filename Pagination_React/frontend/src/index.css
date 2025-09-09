@@ -1,0 +1,58 @@
+body
+{
+  background-color: grey;
+}
+
+.pageIndicesContainer
+{
+  display: flex;
+  margin: 0 auto;
+  /* border: 2px solid purple; */
+  width: 75vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.pageIndex
+{
+  border: 2px solid white;
+  margin: 20px;
+  padding: 10px;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.pageIndex:hover
+{
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
+
+.screen
+{
+  height: 75vh;
+  width: 75vw;
+  background-color: white;
+  border: 3px solid black;
+  margin: 0 auto;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageContainer > img
+{
+  height: 70vh;
+  width: 70vw;
+  border-radius: 10px;
+}
+
+.Loading
+{
+  color: black;
+}
